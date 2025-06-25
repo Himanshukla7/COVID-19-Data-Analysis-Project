@@ -1,18 +1,14 @@
-Here’s a revised and improved version of your "outcomes" file for the COVID-19 Data Analysis Project. This version corrects typos, standardizes formatting, adds context, and includes space for actual images or plots.
-
----
-
 # Outcomes of the Analysis
 
-## Q1: Which country had the highest number of cases till the month of April 2020?
+## Q1: Which country had the highest number of COVID-19 cases till the month of April 2020?
 
 **Answer:** United States
 
-*Methodology:*  
-Analyzed the cumulative confirmed cases for all countries up to April 30, 2020, using the COVID-19 dataset.
+**Methodology:**  
+Analyzed cumulative confirmed cases for all countries using the COVID-19 dataset up to April 30, 2020.
 
-![US Cases Plot](path/to/us_cases_plot.png)  
-*Figure: Cumulative confirmed cases in the US up to April 2020.*
+![US Cases Plot](us_cases_plot.png)  
+*Figure: Cumulative confirmed COVID-19 cases in the US up to April 2020.*
 
 ---
 
@@ -20,11 +16,11 @@ Analyzed the cumulative confirmed cases for all countries up to April 30, 2020, 
 
 **Answer:** Canada
 
-*Methodology:*  
-Filtered the dataset to identify countries with the lowest reported cases as of April 30, 2020.
+**Methodology:**  
+Filtered the dataset to find countries with the lowest reported cases as of April 30, 2020.
 
-![Canada Cases Plot](path/to/canada_cases_plot.png)  
-*Figure: Cumulative confirmed cases in Canada up to April 2020.*
+![Canada Cases Plot](canada_cases_plot.png)  
+*Figure: Cumulative confirmed COVID-19 cases in Canada up to April 2020.*
 
 ---
 
@@ -40,14 +36,12 @@ Filtered the dataset to identify countries with the lowest reported cases as of 
 - Myanmar  
 - Sri Lanka
 
-*Methodology:*  
+**Methodology:**  
 Extracted time series data for each country and plotted the number of confirmed cases by date.
 
-![Regional Comparison Plot](path/to/india_neighbours_plot.png)  
+![Regional Comparison Plot](india_neighbours_plot.png)  
 *Figure: Confirmed COVID-19 cases by date for India and neighboring countries.*
 
 ---
 
-**Note:** Please replace `path/to/xxx_plot.png` with the actual file paths or embedded images from your analysis.
-
-Let me know if you want to include more analysis, change the file format, or need help with the plotting code!
+**Note:** Replace the image paths (e.g., `us_cases_plot.png`) with your actual chart or plot images generated from your analysis. You can export these from Jupyter Notebook using `plt.savefig('filename.png')`.
